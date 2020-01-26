@@ -1,32 +1,23 @@
 import ReactDOM from 'react-dom';
-import React, { Component } from 'react';
+import React from 'react';
 import './styling.css';
-
-// The code I tried here does not work. See problem2.3.js for a working solution
 
 function CodingChallenge() {
 
-  const [updatedName, setUpdatedName] = React.useState('');
-
-    const handleSubmit = (e) => {
-      e.preventDefault();
-      console.log(updatedName);
-      // code for error
-    };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    var InputBoxValue = document.getElementById("InputBox").value;
+    document.getElementById("DisplayText").innerHTML=InputBoxValue;
+    // code for error
+  };
 
     return (
       <div>
         <form onSubmit={handleSubmit}>
-          <h1>Enter Your Name</h1>
-          <input
-            id="inputBox"
-            type="text"
-            name="updatedName"
-            value={updatedName}
-            onChange={e => setUpdatedName(e.target.value)}
-          />
+          <h1>Enter your name and see it displayed below!</h1>
+          <input id="InputBox" type="text"></input>
           <button>Submit</button>
-          <p>Hello {updatedName}, welcome to the page.</p>
+          <h3 id="DisplayText"></h3>
         </form>
       </div>
     );

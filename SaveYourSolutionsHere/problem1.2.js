@@ -13,7 +13,7 @@ function CodingChallenge() {
     return (
       <div>
         <form onSubmit={handleSubmit}>
-          <h1>Press the button to console log "Hello World"</h1>
+          <h1>Press the button to display "Hello World" to the screen</h1>
           <button>Submit</button>
           <h3 id="DisplayText"></h3>
         </form>
