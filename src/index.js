@@ -1,7 +1,7 @@
  import React from 'react';
  import ReactDOM from 'react-dom';
  import './styling.css';
- import CodingChallenge from './problem2.3.js';
+ import CodingChallenge from './challenge3.js';
 
 // HTML FILE    !!!!!!!!!!!!!!!!!
 

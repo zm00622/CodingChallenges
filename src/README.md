@@ -1,7 +1,7 @@
 # CodingChallenges
  This project is going to contain set of React.js exercises & challenges.
 
- Solve your problems in the source folder and save your solutions in the SaveYourSolutionsHere folder.
+ Solve your challenges in the source folder and save your solutions in the SaveYourSolutionsHere folder.
 
  Also, read the document titled HowToNameYourFiles.md Following the naming convention will help to keep
  things organized.
@@ -26,4 +26,4 @@
 
  7. Write a program that prints a multiplication table for numbers up to 12.
 
-Problems 1 through 7 are courtesy of GitHub user Adrian Neumann
+Challenges 1 through 7 are courtesy of GitHub user Adrian Neumann
