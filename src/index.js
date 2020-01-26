@@ -1,5 +1,7 @@
  import React from 'react';
  import ReactDOM from 'react-dom';
+ import './footerstyling.css';
+ import HackerAnimation from './footeranimation.js';
  import './styling.css';
  import CodingChallenge from './challenge3.js';
 
@@ -8,10 +10,16 @@
 const App = () => {
 
 
+
     return (
       <div>
         <CodingChallenge>
         </CodingChallenge>
+        <HackerAnimation>
+        {window.onload = (event) => {
+          return HackerAnimation();
+        }}
+        </HackerAnimation>
       </div>
     );
   };
