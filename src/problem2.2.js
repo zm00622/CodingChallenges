@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './styling.css';
 
 // Testing commit
+// Testing branch commit
 
 function CodingChallenge() {
 
