@@ -1,5 +1,6 @@
  import React from 'react';
  import ReactDOM from 'react-dom';
+ import { HashRouter } from "react-router-dom"
  import './footerstyling.css';
  import HackerAnimation from './footeranimation.js';
  import './styling.css';
